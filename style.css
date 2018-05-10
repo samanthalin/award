@@ -723,7 +723,7 @@ button:focus {
 
 
 #mu-speakers {
-	background-color: #fff;
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1046,15 +1046,15 @@ button:focus {
 }
 
 .mu-reg-submit-btn {
-	background-color: transparent;
+	background-color: rgba(255, 255, 255, 0.3);
 	border: 2px solid #fff;
 	color: #fff;
 	padding: 12px 75px;
 	margin-top: 20px;
 	letter-spacing: 1px;
-	-webkit-transition: all 0.5s;
+	/* -webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-	transition: all 0.5s;
+	transition: all 0.5s; */
 }
 
 
@@ -1084,12 +1084,13 @@ button:focus {
 }
 
 .mu-sponsors-single {
-	background: #eee;
+	/* background: #eee; */
 	display: inline;
 	float: left;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	width: 100%;
+	text-align: center;
 }
 
 
@@ -1163,7 +1164,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #f8f8f8;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
